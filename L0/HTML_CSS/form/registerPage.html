@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Resistration page</title>
+    </head>
+
+    <body>
+        <form style="margin: 15px;">
+        <!-- first name last name -->
+            <b>First Name : </b>
+            <br> <input type="text" name = "FirstName" placeholder="Ankita" maxlength="10"><br>
+            <b>Last Name  : </b> 
+            <br> <input type="text" name = "LastName" placeholder="Sahoo" maxlength="8">
+            <br>
+
+        <!-- add email -->
+            <br><b>Enter email :</b> 
+            <br> <input type="email" name="email">
+            <br>
+
+        <!-- date -->
+            <br><b>DOB : </b> <input type="date" type="DOB" >
+            <br>
+
+        <!-- Radio button -->
+            <br> <b>Gender : </b> 
+            <input type="radio" name="gender" placeholder="MALE"> male
+            <input type="radio" name="gender" placeholder="FEMALE"> female
+            <input type="radio" name="gender" placeholder="OTHER"> others
+            <br>
+
+        <!-- check Box -->
+            <br> <b>Preference : </b><br>
+            <input type="checkbox" name="preference1" value="html">HTML<br>
+            <input type="checkbox" name="preference2" value="css">CSS<br>
+            <input type="checkbox" name="preference3" value="js">JS<br>
+            <br>
+
+        <!-- dropdown -->
+            <br> <b>choose semester :</b>
+            <select name="dropdown">
+                <option value="1st" selected>1st</option>
+                <option value="2nd" selected>2nd</option>
+                <option value="3rd" selected>3rd</option>
+                <option value="4th" selected>4th</option>
+                <option value="5th" selected>5th</option>
+                <option value="6th" selected>6th</option>
+            </select>
+            <br>
+
+        <!-- file upload -->
+            <br> <b>upload resume</b>
+            <input type="file" name="uploadfile"> 
+            <br>
+
+        <!-- password -->
+            <br><b>Enter password : </b>
+            <br> <input type="password" name="pw" maxlength="8">
+            <br>
+
+        <!-- multiline input -->
+            <br>
+            <textarea minlength="10" maxlength="100" rows="5" cols="30" placeholder="Enter massage"></textarea>
+            <br>
+        <!-- submit -->
+
+            <br><input type="submit" name="submit">
+            <input type="reset" name="reset">
+
+        </form>
+    </body>
+</html>

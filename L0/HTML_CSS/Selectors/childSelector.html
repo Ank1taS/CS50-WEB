@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>child Selectors</title>
+        <style>
+            /* child selector */
+            /* The child selector selects all elements that are the children of a specified element. */
+            ol > li {
+                color: blue;
+            }
+        </style>
+    </head>
+
+    <body>
+        <ol>
+            <li>foo</li>
+            <li> bar
+                <ul>
+                    <li>hello</li>
+                    <li>goodbye</li>
+                    <li>hello</li>
+                </ul>
+            </li>
+            <li>baz</li>
+        </ol>
+
+    </body>
+<html>
