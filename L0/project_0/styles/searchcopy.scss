@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#bodyContainer {
+    padding: 10px;
+    // margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+#top {
+    padding: 1%;
+    position: fixed;
+    top: 0;
+    height: 5%;
+    width: 100%;
+    
+    
+    .upperLinks {
+        position: relative;
+        float: right;
+        right: 1%;
+        display: flex;
+        flex-wrap: wrap;
+        width: 280px;
+        height: 30px;
+        font-family: Arial, sans-serif;
+        font-size: medium;
+        color: rgb(4, 4, 109);
+        
+        .link {
+            position: relative;
+            margin: 3px;
+            padding: 5px;
+            height: 20px;
+        }
+
+        #link1 {
+            left: 0;
+        }
+
+        #link2 {
+            margin-left: 18px;
+            right: 0;
+        }
+    }
+}
+
+   

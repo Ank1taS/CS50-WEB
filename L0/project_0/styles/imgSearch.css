@@ -1,0 +1,152 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#bodyContainer {
+  padding: 10px;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+
+.container {
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hoverContainer:hover {
+  box-shadow: 0px 2px 8px #c0b9b9;
+}
+
+.top {
+  height: 8%;
+  width: 100%;
+  padding-right: 0;
+  margin-right: 2%;
+  justify-content: flex-end;
+}
+
+.googleSearch {
+  width: 130px;
+  height: 30px;
+  margin: 3px;
+  padding: 5px;
+  height: 30px;
+  color: #000085;
+  font-size: medium;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+}
+
+.googleSearch:hover {
+  color: #000085;
+}
+
+.google {
+  flex-direction: column;
+  height: 35%;
+  width: 100%;
+  align-items: center;
+}
+
+.segment {
+  position: relative;
+  margin-top: auto;
+  height: 120px;
+  width: 350px;
+}
+
+.imgSegment {
+  margin-top: auto;
+  height: 120px;
+  width: 350px;
+}
+
+.images {
+  position: absolute;
+  left: 280px;
+  bottom: 2px;
+  font-family: roboto-regular, arial, sans-serif;
+  font-size: 20px;
+  color: #1b42ee;
+}
+
+.lastContainer {
+  padding: 20px;
+  max-height: 180px;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+}
+
+.subDiv1 {
+  height: 180px;
+  width: 60%;
+  max-width: 580px;
+  padding-top: 5px;
+  padding-left: 3%;
+  flex-direction: column;
+}
+
+.searchBox {
+  height: 44px;
+  width: auto;
+  min-width: 250px;
+  max-width: 515px;
+  border: 1px solid #5f6368;
+  box-shadow: none;
+  border-radius: 24px;
+}
+
+.innerSearchBox {
+  padding: 5px 8px 5px 14px;
+  width: 100%;
+  gap: unset;
+  justify-content: space-between;
+}
+
+.searchIcon {
+  padding: 3px 1px 3px 2px;
+}
+
+.searchBar {
+  width: 83%;
+  min-width: 40%;
+  height: 40px;
+  padding-bottom: 12px;
+}
+
+.inputText {
+  border: 0px;
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: large;
+}
+
+.inputText:focus {
+  outline: none;
+}
+
+.searchButton {
+  border: none;
+  width: 25px;
+  height: 30px;
+  padding: 0px 4px 6px 4px;
+  background-color: #FFFFFF;
+  color: #1b42ee;
+}
+
+.searchButton:hover {
+  color: #0e1663;
+}
+
+/*# sourceMappingURL=imgSearch.css.map */

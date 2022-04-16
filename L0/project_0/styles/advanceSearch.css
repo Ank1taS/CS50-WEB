@@ -1,0 +1,173 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#bodyContainer {
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  font-family: arial, sans-serif;
+}
+
+.container {
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top {
+  height: 8%;
+  width: 100%;
+  padding-right: 0;
+  padding-top: 10px;
+  margin-right: 2%;
+  justify-content: flex-end;
+}
+
+.googleSearch {
+  width: 130px;
+  height: 30px;
+  margin: 3px;
+  padding: 5px;
+  height: 30px;
+  color: #000085;
+  font-size: medium;
+  text-decoration: none;
+}
+
+.advHeading {
+  margin: 5px 5px 15px 20px;
+  height: 5%;
+  width: 100%;
+  font-size: 22px;
+  padding-left: 55px;
+  color: #e03e22;
+}
+
+.separator {
+  position: relative;
+  background-color: rgba(56, 54, 54, 0.479);
+  border: 0.5px solid rgba(145, 148, 156, 0.055);
+}
+
+.body {
+  max-width: 1140px;
+  min-width: 600px;
+  width: 96%;
+  margin: 30px 100px 5% 50px;
+  padding-right: 5%;
+  height: 40%;
+  font-family: arial, sans-serif;
+}
+
+.outerFlex {
+  height: 100%;
+  padding-right: 0%;
+  width: fit-content;
+  flex-direction: column;
+}
+
+.commonContainerHeading {
+  padding: 5px 0px 10px 0px;
+}
+
+.commonContainerdetail {
+  padding: 10px 0px 10px 0px;
+  margin-bottom: 5px;
+}
+
+.commonContainer {
+  height: 40px;
+  width: fit-content;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 170px 500px auto;
+}
+
+.Heading {
+  width: 250px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.rightHeadPadding {
+  padding-left: 10px;
+}
+
+.col1 {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.col3 {
+  font-size: 11px;
+  font-weight: 300;
+  height: 30px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.textBox {
+  outline: 1.5px ridge #837d7d;
+  border-radius: 2px;
+}
+
+.textBox :focus {
+  height: 100%;
+  outline: none;
+  border: 1px ridge #0c90fc;
+  border-radius: 2px;
+}
+
+.input {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 5px;
+  outline: none;
+  border: 0px;
+}
+
+.spanProp {
+  font-family: monospace;
+  font-size: 11px;
+  white-space: pre;
+}
+
+.buttonContainer {
+  padding-top: 30px;
+  padding-right: 0px;
+  height: 62px;
+}
+
+.buttonflex {
+  justify-content: flex-end;
+  padding: 0px;
+}
+
+.buttonDetail {
+  height: 32px;
+  width: 140px;
+  padding: 0px 10px 0px 13px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  box-shadow: none;
+  border: #0178da;
+  background-color: #2176f5;
+  border-radius: 4px;
+}
+
+.buttonDetail:hover {
+  box-shadow: 5px 5px 10px #2176f5 inset;
+  background-color: #2859f9;
+}
+
+/*# sourceMappingURL=advanceSearch.css.map */
